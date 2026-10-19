@@ -49,10 +49,13 @@ function playGame() {
 
   if (humanScore > computerScore) {
     console.log("You won the game!");
+    alert("You won the game!")
   } else if (humanScore < computerScore) {
     console.log("You lost the game!");
+    alert("You lost the game!")
   } else {
     console.log("The game ended in a draw!");
+    alert("The game ended in a draw!")
   }
 }
 
