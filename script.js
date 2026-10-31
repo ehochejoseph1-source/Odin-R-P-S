@@ -33,7 +33,7 @@ function playGame() {
     ) {
       humanScore++;
       console.log(`You win! ${humanDisplay} beats ${computerDisplay}`);
-      alert("You won this round")
+      alert("You won this round ")
     } else {
       computerScore++;
       console.log(`You lose! ${computerDisplay} beats ${humanDisplay}`);
